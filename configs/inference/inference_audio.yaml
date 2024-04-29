@@ -1,14 +1,14 @@
 a2m_model:
   out_dim: 1404
   latent_dim: 512
-  model_path: ./pretrained_model/wav2vec2-base-960h
+  model_path: facebook/wav2vec2-large-xlsr-53
   only_last_fetures: True
   from_pretrained: True
 
 a2p_model:
   out_dim: 6 
   latent_dim: 512
-  model_path: ./pretrained_model/wav2vec2-base-960h
+  model_path: facebook/wav2vec2-large-xlsr-53
   only_last_fetures: True
   from_pretrained: True
 
